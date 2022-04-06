@@ -88,8 +88,7 @@ command>Status
 * Question2 funtion structure created
 
 **Author (About Developers)**
-1. William Mabia- https://github.com/WilliamMabia
-2. Yvonne Itangishaka- https://github.com/yvonneitan
+1. Yvonne Itangishaka- https://github.com/yvonneitan
 
 
 **License**
