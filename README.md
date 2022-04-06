@@ -49,7 +49,9 @@ The above command displays the status information of the memory
 
 <img width="279" alt="image" src="https://user-images.githubusercontent.com/68035004/161671876-ea5a0c41-9abb-4f98-8e46-f53a125c592d.png">
 
-**Individual Contributions (All by Yvonne)**
+**Contributions**
+
+All work donw alone
 
 **Features**
 The system has function such as;
@@ -61,8 +63,11 @@ memory_status()
 input_check()
 main()
 
+All these finctions work together to in requestiona and releasing memory in the process of allocation
+
 **Makefiles**
-Question2_makefile- file is the make file
+Question1
+Question2
 
 **Test Cases**
 
