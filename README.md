@@ -7,17 +7,19 @@ This assignment is based on the concept of deadlock avoidance and contiguous mem
 This assignment is based on the concept of deadlock avoidance and contiguous memory allocation.
 
 
-**RUNNING QUESTION 1 DESCRIPTION**
+**RUNNING QUESTION 1 DESCRIPTION (BY Yvonne I.)**
+
 
 **RUNNING QUESTION 2 DESCRIPTION ( BY Yvonne I.)**
+This program shows how orcesses are allocated momory through contiguous memory allocation is done using linked list.
 
-This program must respond to three different requests:
+Thes program must respond to three different requests:
 * Request for a contiguous block of memory
 * Release of a contiguous block of memory
 * Report the regions of free and allocated memory
 
 
-The program the is passed the initial amount of memory to start with for example 1000000 bytes
+The program then is passed the initial amount of memory to start with for example 1000000 bytes
 
 **./Question2 1000000**
 
@@ -47,7 +49,7 @@ The above command displays the status information of the memory
 
 <img width="279" alt="image" src="https://user-images.githubusercontent.com/68035004/161671876-ea5a0c41-9abb-4f98-8e46-f53a125c592d.png">
 
-**Individual Contributions**
+**Individual Contributions (All by Yvonne)**
 
 **Features**
 The system has function such as;
@@ -69,23 +71,15 @@ command>RQ P0 200000 B
 command>RL P0
 command>Status
 
-
-**Examples**
-
-
 **Commit History**
 
 **First Commit**
-* Repository Created and README.md file created
-* Question 1 include files and some Variables declaration created
+* Repository Created 
+* README.md file created
 
 **Second Commit**
-* README.md file updated into a better understandable order
-* LICENSE.md created and Incuded in the README.md file
-* Data Structure for Customer Created
+* README.md file updated
 
-**Third Commit**
-* Question2 funtion structure created
 
 **Author (About Developers)**
 1. Yvonne Itangishaka- https://github.com/yvonneitan
