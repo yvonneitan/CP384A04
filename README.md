@@ -245,9 +245,9 @@ Address [970000:999999] len = 30000
 
 **SCREENSHOTS**
 
+<img width="448" alt="Screen Shot 2022-04-06 at 8 41 07 AM" src="https://user-images.githubusercontent.com/68035004/161977269-97d814da-bde7-495b-8755-3b47f56d5980.png">
 
 
-<img width="279" alt="image" src="https://user-images.githubusercontent.com/68035004/161671876-ea5a0c41-9abb-4f98-8e46-f53a125c592d.png">
 
 **CONTRIBUTIONS**
 
