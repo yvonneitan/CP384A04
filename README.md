@@ -7,11 +7,111 @@ This assignment is based on the concept of deadlock avoidance and contiguous mem
 This assignment is based on the concept of deadlock avoidance and contiguous memory allocation.
 
 
-**RUNNING QUESTION 1 DESCRIPTION (BY Yvonne I.)**
+**QUESTION 1 DESCRIPTION AND RUNNING (BY Yvonne I.)**
+
+This program shows deadlock management using Banker's Algorithm.
+
+The program consider requests from n customers for m resource types.
+
+The banker keeps track of the resources using the following data structures:
+* the available amount of each resource
+* the maximum demand of each customer
+* the amount currently allocated to each customer
+* the remaining need of each customer
+
+The program then is passed the a sample file with a matrix of resources
 
 
-**RUNNING QUESTION 2 DESCRIPTION ( BY Yvonne I.)**
-This program shows how orcesses are allocated momory through contiguous memory allocation is done using linked list.
+**./Question1 10 5 7 8**
+
+**EXAMPLES**
+
+If customer/thread 0 were to request the resources (1, 0, 0, 1), the following command would be entered:
+
+**RQ 0 1 0 0 1**
+
+If customer 4 wishes to release the resources (1, 0, 0, 0), the user would enter the following command:
+
+**RL 4 1 0 0 0**
+
+
+When the command **‘Status’** is excecuted ,the program would output; 
+
+* the current state of the available, 
+* the maximum array 
+* the allocation array
+* the need arrays
+
+Whe command ‘Run’ would executes the program would;
+
+* run the safe sequence based on the current state and all the customers (threads) 
+* then the following prints for each thread:
+
+* The safe sequence
+*  Name of thread running in sequence ordering
+* Allocated Resources
+* Need
+* Available resources
+* A message: “Thread has started”
+* A message: “Thread has finished”
+* A message: “Thread is releasing resources”
+* New Available status
+
+**Features**
+
+The program has functions;
+
+* int readInput()
+* int readFile()
+* int isSafe()
+* void resources_stat()
+* int bankersAlgo()
+* void* customer(void *t)
+
+**TEST**
+
+osc@ubuntu:~/A04/bankers-algorithm$ ./Question1 10 5 7 8 
+
+Number of Customers: 5 
+
+Currently Available resources: 
+
+10 5 7 8 
+
+Maximum resources from file: 
+
+6 4 7 3 
+
+4 2 3 2
+
+2 5 3 3
+
+6 3 3 2
+
+5 5 7 5 
+
+Enter Command: RQ 0 1 0 0 1 
+
+State is safe, and request is satisfied 
+
+Enter Command: RQ 1 1 1 1 1 
+
+State is safe, and request is satisfied 
+
+Enter Command:
+
+
+**SCREENSHOT**
+
+<img width="337" alt="Screen Shot 2022-04-06 at 8 40 59 AM" src="https://user-images.githubusercontent.com/68035004/161976802-bb3c7d51-5e67-4fa1-965a-d1bb8b4a9c39.png">
+
+
+
+
+
+**QUESTION 2 DESCRIPTION AND RUNNING ( BY Yvonne I.)**
+
+This program shows how processes are allocated memory through contiguous memory allocation ( Best fit Algorithm) and is done using linked list.
 
 Thes program must respond to three different requests:
 * Request for a contiguous block of memory
@@ -43,31 +143,17 @@ The above command reales a the memory for process P0
 **command>Status**
 The above command displays the status information of the memory
 
-**Screenshots**
-
-
-
-<img width="279" alt="image" src="https://user-images.githubusercontent.com/68035004/161671876-ea5a0c41-9abb-4f98-8e46-f53a125c592d.png">
-
-**Contributions**
-
-All work donw alone
-
 **Features**
 The system has function such as;
 
-best_fit()
-request_memory()
-releasememory()
-memory_status()
-input_check()
-main()
+* best_fit()
+* request_memory()
+* releasememory()
+* memory_status()
+* input_check()
+* main()
 
 All these finctions work together to in requestiona and releasing memory in the process of allocation
-
-**Makefiles**
-Question1
-Question2
 
 **Test Cases**
 
@@ -157,7 +243,23 @@ Address [150000:199999] len = 50000
 
 Address [970000:999999] len = 30000
 
-**Commit History**
+**SCREENSHOTS**
+
+
+
+<img width="279" alt="image" src="https://user-images.githubusercontent.com/68035004/161671876-ea5a0c41-9abb-4f98-8e46-f53a125c592d.png">
+
+**CONTRIBUTIONS**
+
+* All work done alone
+
+
+**MAKEFILES**
+* Question1
+* Question2
+
+
+**COMMIT HISTORY**
 
 **First Commit**
 * Repository Created 
@@ -167,20 +269,27 @@ Address [970000:999999] len = 30000
 * README.md file updated
 
 **Third Commit**
-Question2.c added
+* Question2.c added
 
 **Fourth Commit**
-Question1.c added
+* Question1.c added
 
 **Fifth Commit**
-README.md updated on Question2 Description
+* README.md updated on Question2 Description
 
+**Sixth Commit**
 
-**Author (About Developers)**
+* Makefile added
+* Features added
+
+**Seventh Commit**
+ READDME.md done
+ 
+**AUTHORS (About Developers)**
 1. Yvonne Itangishaka- https://github.com/yvonneitan
 
 
-**License**
+**LICENCE**
 
 * This project is licensed under MIT License. Please reffer from LICENSE.md file for more details.
 
